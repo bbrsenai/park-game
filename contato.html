@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parks & Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="css/estilo.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg cabecario">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo" src="img/P&G_logo.png" alt="logo" height="100px" width="150px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link letrabranca" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link letrabranca" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle letrabranca" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu menuaba">
+                            <li><a class="dropdown-item" href="festa.html">Festas</a></li>
+                            <li><a class="dropdown-item" href="escurcao.html">Escurções</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="evento.html">Eventos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link letrabranca" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Faça sua pesquisa" aria-label="Search"/>
+                    <button class="btn botao" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<br>
+
+<section class="lojas">
+    <div class="alert alert-info tamanho_alerta" role="alert">
+        Contate-nos!
+    </div>
+    <div class="contato">
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label letrabranca">Nome</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label letrabranca">Sobrenome</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label letrabranca">E-mail</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Please choose a username.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom03" class="form-label letrabranca">Cidade</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                    Por favor digite a cidade.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom04" class="form-label letrabranca">Estado</label>
+                <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Escolha...</option>
+                    <option>Acre (AC)</option>
+                    <option>Alagoas (AL)</option>
+                    <option>Amapá (AP)</option>
+                    <option>Amazonas (AM)</option>
+                    <option>Bahia (BA)</option>
+                    <option>Ceará (CE)</option>
+                    <option>Distrito Federal (DF)</option>
+                    <option>Espírito Santo (ES)</option>
+                    <option>Goiás (GO)</option>
+                    <option>Maranhão (MA)</option>
+                    <option>Mato Grosso (MT)</option>
+                    <option>Mato Grosso do Sul (MS)</option>
+                    <option>Minas Gerais (MG)</option>
+                    <option>Pará (PA)</option>
+                    <option>Paraíba (PB)</option>
+                    <option>Paraná (PR)</option>
+                    <option>Piauí (PI)</option>
+                    <option>Rio de Janeiro (RJ)</option>
+                    <option>Rio Grande do Norte (RN)</option>
+                    <option>Rio Grande do Sul (RS)</option>
+                    <option>Rondônia (RO)</option>
+                    <option>Roraima (RR)</option>
+                    <option>Santa Catarina (SC)</option>
+                    <option>São Paulo (SP)</option>
+                    <option>Sergipe (SE)</option>
+                    <option>Tocantins (TO)</option>
+                </select>
+                <div class="invalid-feedback">
+                    Por favor selecione um estado.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom05" class="form-label letrabranca">CEP</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    Por favor valide o CEP.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label letrabranca">Texto</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label letrabranca" for="invalidCheck">
+                        Concordo com os termos
+                    </label>
+                    <div class="invalid-feedback">
+                        Concorde antes de enviar.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-info" type="submit">Enviar formulário</button>
+            </div>
+
+        </form>    </div>
+    <br>
+</section>
+
+<footer>
+    <img class="logo" src="img/P&G_logo.png" alt="logo" height="100px" width="150px">
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>

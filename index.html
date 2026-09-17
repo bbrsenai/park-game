@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parks & Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="css/estilo.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg cabecario">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo" src="img/P&G_logo.png" alt="logo" height="100px" width="150px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link letrabranca" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link letrabranca" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle letrabranca" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu menuaba">
+                            <li><a class="dropdown-item" href="festa.html">Festas</a></li>
+                            <li><a class="dropdown-item" href="escurcao.html">Escurções</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="evento.html">Eventos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link letrabranca" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Faça sua pesquisa" aria-label="Search"/>
+                    <button class="btn botao" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<br>
+<section class="banner">
+    <div id="carouselExampleIndicators" class="carousel slide banner">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banner1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+<br>
+
+<section class="lojas">
+    <div class="alert alert-info tamanho_alerta" role="alert">
+        Conheça nossas lojas!
+    </div>
+    <h3>Loja de Penápolis</h3>
+    <img src="img/P&G_Penápolis.png" class="img-fluid loja" alt="LojaPenapolis">
+    <h4><stronger>Endereço:</stronger> Rod. Srg. Luciano Arnaldo Covolan, s/n - Parque Industrial, Penápolis - SP, 16300-000<br>
+        <stronger>Telefone:</stronger> (18) 3653-8751</h4>
+    <div>
+        <h4><stronger>Avaliações:</stronger></h4>
+        <h2>3,1⭐⭐⭐<strong>★★</strong></h2>
+    </div><br>
+    <br><hr>
+    <h3>Loja de Bauru</h3>
+    <img src="img/P&G_Bauru.png" class="img-fluid loja" alt="LojaBauru">
+    <h4><stronger>Endereço:</stronger> R. Henrique Savi, 55 - Vila Nova Cidade Universitaria, Bauru - SP, 17011-900<br>
+        <stronger>Telefone:</stronger> (14) 3012-0780</h4>
+    <div>
+        <h4><stronger>Avaliações:</stronger></h4>
+        <h2>2,9⭐⭐⭐<strong>★★</strong></h2>
+    </div><br>
+    <br><hr>
+    <h3>Loja de Ribeirão Preto</h3>
+    <img src="img/P&G_RibeirãoPreto.png" class="img-fluid loja" alt="LojaRibeirãoPreto">
+    <h4><stronger>Endereço:</stronger> Novo Shopping - Av: Presidente Kennedy, 1500 - Ribeirânia, Ribeirão Preto - SP, 14095-220<br>
+        <stronger>Telefone:</stronger> (16) 99616-5317</h4>
+    <div>
+        <h4><stronger>Avaliações:</stronger></h4>
+        <h2>4,2⭐⭐⭐⭐<strong>★</strong></h2>
+    </div><br>
+    <br><hr>
+    <h3>Loja de São Paulo</h3>
+    <img src="img/P&G_SãoPaulo.png" class="img-fluid loja" alt="LojaSãoPaulo">
+    <h4><stronger>Endereço:</stronger> Av. Dr. Francisco Mesquita, 1000 - Vila Prudente, São Paulo - SP, 03153-001<br>
+        <stronger>Telefone:</stronger> (11) 2068-3103</h4>
+    <div>
+        <h4><stronger>Avaliações:</stronger></h4>
+        <h2>4,3⭐⭐⭐⭐<strong>★</strong></h2>
+    </div><br>
+    <br><hr>
+    <h3>Loja de Praia Grande</h3>
+    <img src="img/P&G_PraiaGrande.png" class="img-fluid loja" alt="LojaPraiaGrande">
+    <h4><stronger>Endereço:</stronger> Av. Ayrton Senna da Silva, 1511 - Sítio do Campo, Praia Grande - SP, 11726-000<br>
+        <stronger>Telefone:</stronger> (13) 3474-4169</h4>
+    <div>
+        <h4><stronger>Avaliações:</stronger></h4>
+        <h2>4,4⭐⭐⭐⭐<strong>★</strong></h2>
+    </div><br>
+    <br><hr>
+    <h3>Loja de São José dos Campos</h3>
+    <img src="img/P&G_SãoJoséDosCampos.png" class="img-fluid loja" alt="LojaSãoJoséDosCampos">
+    <h4><stronger>Endereço:</stronger> Av. Andrômeda, 227 - Jardim Satélite, São José dos Campos - SP, 12230-000<br>
+        <stronger>Telefone:</stronger> (12) 3933-6060</h4>
+    <div>
+        <h4><stronger>Avaliações:</stronger></h4>
+        <h2>4,3⭐⭐⭐⭐<strong>★</strong></h2>
+    </div><br>
+    <br><hr>
+    <h3>Loja de Rio de Janeiro</h3>
+    <img src="img/P&G_RioDeJaneiro.png" class="img-fluid loja" alt="LojaRioDeJaneiro">
+    <h4><stronger>Endereço:</stronger> Av. Pastor Martin Luther King Jr., 126 - Del Castilho, Rio de Janeiro - RJ, 20765-000<br>
+        <stronger>Telefone:</stronger> (21) 2583-1147</h4>
+    <div>
+        <h4><stronger>Avaliações:</stronger></h4>
+        <h2>4,3⭐⭐⭐⭐<strong>★</strong></h2>
+    </div><br><hr>
+
+</section>
+<footer>
+    <img class="logo" src="img/P&G_logo.png" alt="logo" height="100px" width="150px">
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>

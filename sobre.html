@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parks & Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="css/estilo.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg cabecario">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo" src="img/P&G_logo.png" alt="logo" height="100px" width="150px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link letrabranca" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link letrabranca" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle letrabranca" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu menuaba">
+                            <li><a class="dropdown-item" href="festa.html">Festas</a></li>
+                            <li><a class="dropdown-item" href="escurcao.html">Escurções</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="evento.html">Eventos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link letrabranca" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Faça sua pesquisa" aria-label="Search"/>
+                    <button class="btn botao" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<br>
+<section class="banner">
+    <div id="carouselExampleIndicators" class="carousel slide banner">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banner2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner1.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+<br>
+
+<section class="lojas">
+    <div class="alert alert-info tamanho_alerta" role="alert">
+        Conheça sobre nós!
+    </div>
+    <div class="sobre">
+        <h4>A <stronger>Parks & Games</stronger> é uma rede brasileira de centros de diversão e entretenimento familiar, muito comum em shopping centers.<br><br><br>
+            <stronger>O que você encontra na Parks & Games:</stronger><br><br>
+            <ul>
+                <li><stronger>Jogos eletrônicos e Arcades:</stronger> Simuladores de corrida, jogos de tiro, fliperamas clássicos e games interativos que dão tickets para trocar por prêmios.</li>
+                <li><stronger>Atrações infantis:</stronger> Brinquedos, carrosséis, pequenos circuitos e áreas adaptadas para crianças menores.</li>
+                <li><stronger>Espaço para festas:</stronger> Infraestrutura voltada para a realização de festas de aniversário e eventos infantis.</li>
+            </ul><br>
+            Fundada em <stronger>1988</stronger>, a empresa possui unidades espalhadas por vários shoppings e cidades do Brasil, funcionando como um espaço de lazer voltado para o público infanto-juvenil e para a família.
+        </h4>
+    </div>
+</section>
+
+<footer>
+    <img class="logo" src="img/P&G_logo.png" alt="logo" height="100px" width="150px">
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
